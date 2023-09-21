@@ -1,0 +1,121 @@
+body{
+    background-color: #DFDD72;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    padding: 70px;
+}
+
+main{
+    padding: 70px;
+}
+
+label{
+    margin-right: 10px;
+}
+
+
+
+#content {
+    width: 550px;
+    margin: 0 auto; /* Isso centralizará horizontalmente o elemento */
+    text-align: center; /* Isso centralizará o conteúdo dentro do elemento */
+    background-color: #ffffff; /* Isso define o fundo como branco */
+    padding: 10px;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+img{
+    margin: auto;
+}
+
+button {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+   }
+   
+   button:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+   }
+   
+   button:main, button:focus {
+    user-select: auto;
+   }
+   
+   button:hover:not(:disabled) {
+    filter: brightness(1.1);
+   }
+   
+   button:disabled {
+    cursor: auto;
+   }
+   
+   button:active:after {
+    border-width: 0 0 0px;
+   }
+   
+   button:active {
+    padding-bottom: 10px;
+   }
+
+   button{
+    margin: 70px;
+}
+
+input{
+    padding: 3.5px;
+    border-radius: 5px;
+}
+
+
+#resultado {
+    width: 450px;
+    margin: 10px auto; /* Isso centralizará horizontalmente o elemento e adicionará um pequeno espaçamento superior */
+    text-align: center; /* Isso centralizará o conteúdo dentro do elemento */
+    background-color: #CFCA27; /* Isso define o fundo como amarelo */
+    padding: 10px;
+    border-radius: 10px;
+}
